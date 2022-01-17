@@ -40,7 +40,7 @@ function updateFilters() {
   
     // 5. If a filter value was entered then add that filterId and value
     // to the filters list. Otherwise, clear that filter from the filters object.
-    if (elemnt_value) {
+    if (element_value) {
       filters[filter_id] = element_value;
     }
 
